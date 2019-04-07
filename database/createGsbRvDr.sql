@@ -1,3 +1,6 @@
+create database gsbrv2;
+use gsbrv2;
+
 create table activitecompl
 (
   ac_num   int default '0' not null
