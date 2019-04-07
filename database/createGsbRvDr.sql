@@ -1,5 +1,5 @@
-create database gsbrv2;
-use gsbrv2;
+create database gsbrv;
+use gsbrv;
 
 create table activitecompl
 (
