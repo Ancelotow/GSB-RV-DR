@@ -1,5 +1,7 @@
-create database gsbrv;
-use gsbrv;
+DROP DATABASE IF EXISTS gsbrv ;
+
+CREATE DATABASE IF NOT EXISTS gsbrv DEFAULT CHARACTER SET utf8 DEFAULT COLLATE utf8_general_ci ;
+USE gsbrv ;
 
 create table activitecompl
 (
