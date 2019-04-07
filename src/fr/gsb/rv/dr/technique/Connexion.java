@@ -7,7 +7,7 @@ public class Connexion {
 
     private final static String host = "localhost";
     private final static String user = "root";
-    private final static String mdp = "";
+    private final static String mdp = "azerty";
     private final static String dbName = "gsbrv2";
     private final static String port = "3306";
 
