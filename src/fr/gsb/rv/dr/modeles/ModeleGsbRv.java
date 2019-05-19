@@ -32,7 +32,7 @@ public class ModeleGsbRv {
             stmt.setString(2, mdp);
             ResultSet res = stmt.executeQuery();
             while(res.next()){
-                Visiteur vis = new Visiteur(login, res.getString("vis_prenom"), res.getString("vis_prenom"));
+                Visiteur vis = new Visiteur(login, res.getString("vis_nom"), res.getString("vis_prenom"));
                 Session.ouvrir(vis);
                 valid = true;
             }
