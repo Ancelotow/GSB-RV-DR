@@ -21,7 +21,7 @@ INSERT INTO gsbrv.famille (fam_code, fam_libelle) VALUES ('PSA', 'Psychostimulan
 INSERT INTO gsbrv.laboratoire (lab_code, lab_nom, lab_chefvente) VALUES ('BC', 'Bichat', 'Suzanne Terminus');
 INSERT INTO gsbrv.laboratoire (lab_code, lab_nom, lab_chefvente) VALUES ('GY', 'Gyverny', 'Marcel MacDouglas');
 INSERT INTO gsbrv.laboratoire (lab_code, lab_nom, lab_chefvente) VALUES ('SW', 'Swiss Kane', 'Alain Poutre');
-INSERT INTO medicament VALUES 
+INSERT INTO gsbrv.medicament VALUES 
 	('3MYC7','TRIMYCINE','CRT','Triamcinolone (acétonide) + Néomycine + Nystatine','Ce médicament est un corticoïde à activité forte ou très forte associé à un antibiotique et un antifongique, utilisé en application locale dans certaines atteintes cutanées surinfectées.','Ce médicament est contre-indiqué en cas d\'\'allergie à l\'\'un des constituants, d\'\'infections de la peau ou de parasitisme non traités, d\'\'acné. Ne pas appliquer sur une plaie, ni sous un pansement occlusif.',NULL),
 	('ADIMOL9','ADIMOL','ABP','Amoxicilline + Acide clavulanique','Ce médicament, plus puissant que les pénicillines simples, est utilisé pour traiter des infections bactériennes spécifiques.','Ce médicament est contre-indiqué en cas d\'\'allergie aux pénicillines ou aux céphalosporines.',NULL),
 	('AMOPIL7','AMOPIL','ABP','Amoxicilline','Ce médicament, plus puissant que les pénicillines simples, est utilisé pour traiter des infections bactériennes spécifiques.','Ce médicament est contre-indiqué en cas d\'\'allergie aux pénicillines. Il doit être administré avec prudence en cas d\'\'allergie aux céphalosporines.',NULL),
