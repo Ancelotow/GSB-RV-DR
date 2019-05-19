@@ -123,6 +123,7 @@ public class Appli extends Application {
                         menuPraticiens.setDisable(true);
                         vueAccueil.toFront();
                         vuePraticiens.setCritereTri(PanneauPraticiens.CRITERE_COEF_CONFIANCE);
+                        primaryStage.setTitle("GSB-RV-DR");
                     }
                 }
         );
@@ -155,6 +156,7 @@ public class Appli extends Application {
                                 menuRapports.setDisable(false);
                                 menuPraticiens.setDisable(false);
                                 vuePraticiens.setCritereTri(PanneauPraticiens.CRITERE_COEF_CONFIANCE);
+                                primaryStage.setTitle(Session.getSession().getLeVisiteur().getNom().toUpperCase() + " " + Session.getSession().getLeVisiteur().getPrenom());
                             }
                             else{
                                 Optional<ButtonType> validClose = alertBadAuth.showAndWait();
